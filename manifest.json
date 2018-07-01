@@ -1,0 +1,12 @@
+{
+    "name" : "Мое расширение Chrome",
+    "description" : "Описание расширения Chrome",
+    "version" : "1.0",
+    "manifest_version" : 1,
+    "js" : ["script.js"],
+    "browser_action" : {
+        "default_popup" : "hello.html",
+        "defaout_icon" : "icon.png"
+    }
+    
+}
